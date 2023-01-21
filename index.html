@@ -1,0 +1,74 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafiqul Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>6
+
+
+<body>
+    <H2>Welcome to Anifa House</H2>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        
+        <label for="email">Your email
+            <input id="email" type="email" placeholder="Your email">
+        </label>
+    
+        <fieldset>
+            <legend>Pick one room</legend>
+            <label for="big-room">
+                <input type="radio" name="room" id="big-room">
+                Big-room
+            </label>
+            <label for="Medium-room">
+                <input type="radio" name="room" id="medium-room">
+                Medium-room
+            </label>
+            <label for="small-room">
+                <input type="radio" name="room" id="small-room">
+                Small-room
+            </label>
+            <label for="basement">
+                <input type="radio" name="room" id="basement">
+                Basement
+            </label>
+            <label for="living-room">
+                <input type="radio" name="room" id="living-room">
+                living-room
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more room</legend>
+            <label for="with-others">
+                <input type="checkbox" name="others" id="with-others">
+                With-others
+            </label>
+            <label for="with-others">
+                <input type="checkbox" name="others" id="with-closet">
+                With-Closet
+            </label>
+            <label for="without-kitchen">
+                <input type="checkbox" name="others" id="without-kitchen">
+                without-kitchen
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="4"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
